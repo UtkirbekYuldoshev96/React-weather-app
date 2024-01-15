@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100&display=swap');
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+.TopHeader{
+      width: 100%;
+      padding: 10px;
+      margin: 5px;
+      background-color: #F7F701;
+      text-align: center;
+      font-size: 25px;
+}
+h3{
+      text-align: center;
+      cursor: pointer;
+      font-size: 35px;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.search-div{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+}
+
+.search-div > input{
+      padding: 20px;
+      width: 40%;
+      font-size: 18px;
+      border: none;
+      /* border-bottom: 1px solid #d6d6d6; */
+}
+.search-div > input:focus{
+      border: none;
+      box-shadow: none;
+      outline: none;
+      border-bottom: 1px solid #d6d6d6;
+}
+
+.city{
+      width: 400px;
+      height: 300px;
+      box-shadow: 2px 2px 10px 10px #d2d2d2;
+      padding: 20px;
+      border-radius: 40px;
+      margin: 5% auto;
+      text-align: center;
+}
+
+.detaile{
+      margin-top: 30px;
+}
+.detaile > .city-name{
+      font-weight: 700;
+      font-family:'Courier New', Courier, monospace, sans-serif;
+}
+
+.detaile > .city-temp{
+      font-size: 20px;
+      margin: 15px;
+      text-transform: uppercase;
+      font-weight: 400;
+}
